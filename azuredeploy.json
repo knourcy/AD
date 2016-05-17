@@ -7,7 +7,7 @@
             "metadata": {
                 "description": "The domain name needs to be consisting of one or more labels separated by . E.g. contoso.com"
             },
-            "defaultValue": "constoso.com"
+            "defaultValue": "contoso.com"
         },
         "adminUsername": {
             "type": "string",
@@ -41,7 +41,7 @@
                 "networkSecurityGroups": "2015-05-01-preview"
             }
         },
-        "assetLocation": "https://raw.githubusercontent.com/knourcy/AD/master",
+        "assetLocation": "https://raw.githubusercontent.com/Azure/AzureStack-QuickStart-Templates/master/ad-non-ha",
         "adVMSize": "Standard_A1",
         "vmNetworkSubnet": "10.0.0.0/24",
         "virtualNetworkAddressRange": "10.0.0.0/16",
